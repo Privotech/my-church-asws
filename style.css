@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.privel {
+  background-image: url("/image/DALL·E\ 2025-03-17\ 15.40.37\ -\ A\ blurred\ background\ image\ of\ a\ large\ congregation\ in\ a\ church\ setting.\ The\ image\ should\ have\ a\ spiritual\ ambiance\ with\ a\ mix\ of\ blue\ and\ orange\ light.webp"); 
+  height: 100vh;  
+  justify-content: center;
+}
+.d-flex{
+  gap: 600px;
+}
+
+
