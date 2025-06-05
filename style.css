@@ -3,14 +3,46 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
 .privel {
-  background-image: url("/image/DALL·E\ 2025-03-17\ 15.40.37\ -\ A\ blurred\ background\ image\ of\ a\ large\ congregation\ in\ a\ church\ setting.\ The\ image\ should\ have\ a\ spiritual\ ambiance\ with\ a\ mix\ of\ blue\ and\ orange\ light.webp"); 
-  height: 1000px;  
-  /* justify-content: center; */
+background-image: linear-gradient(red,blue);
 }
 .d-flex{
   gap: 600px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.animated-bg {
+  height: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  background: linear-gradient(-45deg, #ff6b6b, #f7e74c, #6bcf6b, #6b9cf7, #a76bf7);
+  background-size: 400% 400%;
+  animation: gradientFlow 10s ease infinite;
+  color: white;
+  /* text-align: center; */
+  /* font-size: 2.5rem; */
+  padding: 2rem;
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
